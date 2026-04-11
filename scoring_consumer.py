@@ -56,5 +56,4 @@ for message in consumer:
         # Producent 'alert_producer' wysyła informację do nowego tematu Kafki
         alert_producer.send('alerts', value=tx)
         
-        # Wypisujemy powiadomienie w konsoli
         print(f"ALERT! Podejrzana transakcja {tx['tx_id']}: {total_score} pkt. Reguły: {broken_rules}")
