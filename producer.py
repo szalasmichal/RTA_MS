@@ -11,7 +11,7 @@ sklepy = ['Warszawa', 'Kraków', 'Gdańsk', 'Wrocław']
 kategorie = ['elektronika', 'odzież', 'żywność', 'książki']
 
 def generate_transaction():
-    # 5% szans na złodzieja
+    # 5% szans na oszusta
     if random.random() < 0.05:
         amount = round(random.uniform(3001.0, 5000.0), 2)
         category = 'elektronika'
