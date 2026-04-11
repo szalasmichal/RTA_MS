@@ -1,4 +1,4 @@
-# Zadanie: Analiza Danych w Czasie Rzeczywistym (Apache Kafka)
+# Analiza Danych w Czasie Rzeczywistym (Apache Kafka)
 
 System monitorujący transakcje sklepowe pod kątem oszustw w czasie rzeczywistym.
 
