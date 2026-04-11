@@ -44,7 +44,7 @@ print("System monitoringu uruchomiony...")
 for message in consumer:
     tx = message.value
     
-    # obliczanie scoringu
+    # Scoring
     total_score, broken_rules = score_transaction(tx)
     
     # Jeśli transakcja jest podejrzana (score >= 3)
